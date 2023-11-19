@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Navbar Example</title>
+    <style>
+        /* Style for the navbar */
+        ul.navbar {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            border: 1px solid #ccc; /* Add a border to the navbar */
+            display: flex; /* Make the list items appear horizontally */
+        }
+
+        /* Style for the navbar links */
+        ul.navbar li {
+            padding: 10px;
+            text-align: center;
+            flex: 1; /* Distribute the space evenly among the links */
+        }
+
+        /* Style for the navbar links on hover */
+        ul.navbar li:hover {
+            background-color: #f0f0f0;
+        }
+
+        /* Style for the navbar links when clicked */
+        ul.navbar li:active {
+            background-color: #ddd;
+        }
+
+        /* Style for the navbar links when they are the current page */
+        ul.navbar li.current {
+            background-color: #007BFF;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<ul class="navbar">
+    <li><a href="#">Link 1</a></li>
+    <li><a href="#">Link 2</a></li>
+    <li><a href="#">Link 3</a></li>
+    <li><a href="#">Link 4</a></li>
+    <li><a href="#">Link 5</a></li>
+    <li><a href="#">Link 6</a></li>
+</ul>
+
+</body>
+</html>

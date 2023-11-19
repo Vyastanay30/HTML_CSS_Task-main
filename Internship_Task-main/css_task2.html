@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* Style for the navigation bar */
+        .navbar {
+            background-color: grey;
+            border: 1px solid black;
+            
+            overflow: hidden;
+            padding: 10px; /* Add spacing between the border and navbar content */
+        }
+
+        /* Style for the navigation bar links */
+        .navbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        /* Add a separator between navbar items */
+        .navbar a:not(:last-child)::after {
+            content: "|";
+            color: blue;
+            margin: 0 10px; /* Add spacing between the separator and navbar items */
+        }
+
+        /* On hover, change the background color of the links */
+        .navbar a:hover {
+            background-color: darkgrey;
+        }
+    </style>
+</head>
+<body>
+
+<div class="navbar">
+    <a href="#">Home</a>
+    <a href="#">Java</a>
+    <a href="#">HTML</a>
+    <a href="#">CSS</a>
+</div>
+
+</body>
+</html>
